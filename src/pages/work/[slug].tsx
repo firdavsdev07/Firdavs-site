@@ -3,14 +3,8 @@ import { useRouter } from 'next/router';
 import { getAllPosts, getPostBySlug } from '@/lib/graphql';
 import { Post } from '@/lib/types';
 import { ArrowLeft, Github, ExternalLink } from 'lucide-react';
-import { useTheme } from '@/lib/themeContext';
-import { Geist } from 'next/font/google';
 import Head from 'next/head';
 import { useEffect } from 'react';
-
-const geist = Geist({
-  subsets: ['latin'],
-});
 
 interface ProjectProps {
   post: Post;
@@ -18,7 +12,6 @@ interface ProjectProps {
 
 export default function Project({ post }: ProjectProps) {
   const router = useRouter();
-  const { theme } = useTheme();
 
   useEffect(() => {
     // Listen for our custom scroll event
@@ -39,7 +32,7 @@ export default function Project({ post }: ProjectProps) {
     return () => {
       window.removeEventListener('scrollToWorks', handleScrollToWorks);
     };
-  }, []);
+  }, [router.query.scrollToWorks]);
 
   if (router.isFallback || !post) {
     return (

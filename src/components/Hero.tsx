@@ -40,7 +40,7 @@ export function Hero() {
         {/* Main Heading */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600">
-            Hello, I'm Firdavs
+            Hello, I&apos;m Firdavs 
           </span>
         </h1>
 
@@ -51,7 +51,7 @@ export function Hero() {
 
         {/* Description */}
         <p className="text-gray-600 dark:text-gray-400 mb-12 max-w-2xl">
-          I craft responsive websites where technology meets creativity. Currently, I'm focused on building accessible, human-centered products.
+          I craft responsive websites where technology meets creativity. Currently, I&apos;m focused on building accessible, human-centered products.
         </p>
 
         {/* CTA Buttons */}

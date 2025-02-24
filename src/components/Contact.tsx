@@ -45,11 +45,11 @@ export function Contact() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600">
-              Let's Connect
+              Let&apos;s Connect
             </span>
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Feel free to reach out through any of these platforms. I'm always open to new opportunities and connections!
+            Feel free to reach out through any of these platforms. I&apos;m always open to new opportunities and connections!
           </p>
         </div>
 

@@ -59,13 +59,13 @@ export function About() {
               </h2>
               <div className="prose prose-lg dark:prose-invert">
                 <p className="text-gray-600 dark:text-gray-300 mb-6">
-                  Hi! I'm a passionate Full Stack Developer with a love for creating beautiful, functional, and user-friendly websites and applications.
+                  Hi! I&apos;m a passionate Full Stack Developer with a love for creating beautiful, functional, and user-friendly websites and applications.
                 </p>
                 <p className="text-gray-600 dark:text-gray-300 mb-6">
                   With expertise in both frontend and backend development, I specialize in building modern web applications using technologies like React, Next.js, Node.js, and various databases.
                 </p>
                 <p className="text-gray-600 dark:text-gray-300 mb-8">
-                  I'm always eager to learn new technologies and take on challenging projects that push my boundaries and help me grow as a developer.
+                  I&apos;m always eager to learn new technologies and take on challenging projects that push my boundaries and help me grow as a developer.
                 </p>
               </div>
 

@@ -38,7 +38,7 @@ export default function Home({ posts }: HomeProps) {
       // Clean up the URL
       router.replace('/', undefined, { shallow: true });
     }
-  }, [router.query.scrollToWorks]);
+  }, [router]);
 
   return (
     <ThemeProvider>
