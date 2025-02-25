@@ -1,7 +1,7 @@
-import { ExternalLink, Github, Globe } from 'lucide-react';
-import Image from 'next/image';
-import Link from 'next/link';
-import type { Post } from '@/lib/types';
+import { ExternalLink, Github, Globe } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
+import type { Post } from "@/lib/types";
 
 interface WorksProps {
   posts: Post[];
@@ -9,7 +9,10 @@ interface WorksProps {
 
 export function Works({ posts }: WorksProps) {
   return (
-    <section id="works" className="relative min-h-screen bg-white dark:bg-black overflow-hidden">
+    <section
+      id="works"
+      className="relative min-h-screen bg-white dark:bg-black overflow-hidden"
+    >
       {/* Background Pattern */}
       <div className="absolute inset-0 -z-10 h-full w-full bg-white dark:bg-black [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)] dark:[background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]" />
 
@@ -22,7 +25,8 @@ export function Works({ posts }: WorksProps) {
             </span>
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Here are some of my recent works that showcase my skills and experience
+            Here are some of my recent works that showcase my skills and
+            experience
           </p>
         </div>
 
@@ -57,14 +61,15 @@ export function Works({ posts }: WorksProps) {
 
                 {/* Technologies */}
                 <div className="flex flex-wrap gap-2 mb-6 transform group-hover:translate-x-2 transition-transform duration-300 delay-100">
-                  {Array.isArray(post.technologies) && post.technologies.map((tech, index) => (
-                    <span
-                      key={index}
-                      className="px-3 py-1 text-sm bg-primary/10 text-primary rounded-full"
-                    >
-                      {tech?.text || ''}
-                    </span>
-                  ))}
+                  {Array.isArray(post.technologies) &&
+                    post.technologies.map((tech, index) => (
+                      <span
+                        key={index}
+                        className="px-3 py-1 text-sm bg-primary/10 text-primary rounded-full"
+                      >
+                        {tech?.text || ""}
+                      </span>
+                    ))}
                 </div>
 
                 {/* Links */}
@@ -114,7 +119,9 @@ export function Works({ posts }: WorksProps) {
 
         {posts.length === 0 && (
           <div className="text-center py-12">
-            <p className="text-gray-600 dark:text-gray-400">No projects to display yet. Check back soon!</p>
+            <p className="text-gray-600 dark:text-gray-400">
+              No projects to display yet. Check back soon!
+            </p>
           </div>
         )}
       </div>

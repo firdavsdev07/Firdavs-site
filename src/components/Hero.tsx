@@ -1,37 +1,40 @@
-import { ArrowDown, Download, Github, Linkedin, Mail } from 'lucide-react';
-import Link from 'next/link';
+import { ArrowDown, Download, Github, Instagram, Send } from "lucide-react";
+import Link from "next/link";
 
 export function Hero() {
   const socialLinks = [
     {
       icon: Github,
-      href: 'https://github.com/yourusername',
-      label: 'GitHub',
+      href: "https://github.com/Firdavs-Normurodov",
+      label: "GitHub",
     },
     {
-      icon: Linkedin,
-      href: 'https://linkedin.com/in/yourusername',
-      label: 'LinkedIn',
+      icon: Instagram,
+      href: "https://www.instagram.com/firdavs_flow",
+      label: "LinkedIn",
     },
     {
-      icon: Mail,
-      href: 'mailto:your.email@example.com',
-      label: 'Email',
+      icon: Send,
+      href: "https://t.me/firdavs24075",
+      label: "Email",
     },
   ];
 
   const scrollToContact = () => {
-    const element = document.getElementById('contact');
+    const element = document.getElementById("contact");
     if (element) {
       element.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
+        behavior: "smooth",
+        block: "start",
       });
     }
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex flex-col justify-center bg-light dark:bg-dark overflow-hidden">
+    <section
+      id="home"
+      className="relative min-h-screen flex flex-col justify-center bg-light dark:bg-dark overflow-hidden"
+    >
       {/* Background Pattern */}
       <div className="absolute inset-0 -z-10 h-full w-full bg-white dark:bg-gray-950 [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)] dark:[background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]" />
 
@@ -40,18 +43,21 @@ export function Hero() {
         {/* Main Heading */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600">
-            Hello, I&apos;m Firdavs 
+            Hello, I&apos;m Firdavs
           </span>
         </h1>
 
         {/* Subtitle with Typing Effect */}
         <p className="text-xl sm:text-2xl md:text-3xl text-gray-700 dark:text-gray-300 mb-8 max-w-2xl">
-          Full Stack Developer specializing in building exceptional digital experiences
+          Full Stack Developer specializing in building exceptional digital
+          experiences
         </p>
 
         {/* Description */}
         <p className="text-gray-600 dark:text-gray-400 mb-12 max-w-2xl">
-          I craft responsive websites where technology meets creativity. Currently, I&apos;m focused on building accessible, human-centered products.
+          I craft responsive websites where technology meets creativity.
+          Currently, I&apos;m focused on building accessible, human-centered
+          products.
         </p>
 
         {/* CTA Buttons */}
