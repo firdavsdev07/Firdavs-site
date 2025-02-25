@@ -12,106 +12,107 @@ import {
   GitBranch,
   Layers,
   Palette,
-} from 'lucide-react';
+} from "lucide-react";
 
 export function Skills() {
   const skillCategories = [
     {
-      title: 'Frontend Development',
+      title: "Frontend Development",
       icon: Layout,
       skills: [
         {
-          name: 'HTML/CSS/Sass',
+          name: "HTML/CSS/Sass",
           icon: Globe,
-          color: 'text-orange-500',
+          color: "text-orange-500",
         },
         {
-          name: 'JScript',
+          name: "Javascript",
           icon: FileCode2,
-          color: 'text-yellow-500',
-        },{
-          name: 'TypeScript',
-          icon: FileCode2,
-          color: 'text-blue-500',
+          color: "text-yellow-500",
         },
         {
-          name: 'React & Next.js',
+          name: "TypeScript",
+          icon: FileCode2,
+          color: "text-blue-500",
+        },
+        {
+          name: "React & Next.js",
           icon: Blocks,
-          color: 'text-blue-500',
+          color: "text-blue-500",
         },
         {
-          name: 'Vue.js & Vuex',
+          name: "Vue.js & Vuex",
           icon: Box,
-          color: 'text-green-500',
+          color: "text-green-500",
         },
       ],
     },
     {
-      title: 'Backend Development',
+      title: "Backend Development",
       icon: Server,
       skills: [
         {
-          name: 'Node.js',
+          name: "Node.js",
           icon: Cpu,
-          color: 'text-green-600',
+          color: "text-green-600",
         },
         {
-          name: 'Express.js',
+          name: "Express.js",
           icon: Server,
-          color: 'text-gray-600',
+          color: "text-gray-600",
         },
       ],
     },
     {
-      title: 'Database Technologies',
+      title: "Database Technologies",
       icon: Database,
       skills: [
         {
-          name: 'MongoDB',
+          name: "MongoDB",
           icon: Database,
-          color: 'text-green-500',
+          color: "text-green-500",
         },
         {
-          name: 'PostgreSQL',
+          name: "PostgreSQL",
           icon: Database,
-          color: 'text-blue-500',
+          color: "text-blue-500",
         },
         {
-          name: 'MySQL',
+          name: "MySQL",
           icon: Database,
-          color: 'text-orange-500',
+          color: "text-orange-500",
         },
       ],
     },
     {
-      title: 'UI Frameworks',
+      title: "UI Frameworks",
       icon: Code2,
       skills: [
         {
-          name: 'Tailwind CSS',
+          name: "Tailwind CSS",
           icon: Palette,
-          color: 'text-cyan-500',
+          color: "text-cyan-500",
         },
         {
-          name: 'Bootstrap',
+          name: "Bootstrap",
           icon: Layers,
-          color: 'text-purple-500',
+          color: "text-purple-500",
         },
       ],
     },
     {
-      title: 'Development Tools',
+      title: "Development Tools",
       icon: Terminal,
       skills: [
         {
-          name: 'Linux/Ubuntu',
+          name: "Linux/Ubuntu",
           icon: Terminal,
-          color: 'text-orange-500',
+          color: "text-orange-500",
         },
         {
-          name: 'Version Control',
+          name: "Version Control",
           icon: GitBranch,
-          color: 'text-red-500',
+          color: "text-red-500",
         },
       ],
     },
@@ -151,7 +152,9 @@ export function Skills() {
                   className="group relative bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 hover:border-primary/50 transition-all duration-300 shadow-sm hover:shadow-lg"
                 >
                   <div className="flex items-center gap-4">
-                    <div className={`p-2 rounded-lg bg-gray-100 dark:bg-gray-700 shadow-lg ${skill.color}`}>
+                    <div
+                      className={`p-2 rounded-lg bg-gray-100 dark:bg-gray-700 shadow-lg ${skill.color}`}
+                    >
                       <skill.icon className="w-6 h-6" />
                     </div>
                     <h4 className="text-lg font-semibold text-gray-800 dark:text-gray-100 group-hover:text-primary transition-colors">
