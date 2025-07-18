@@ -18,8 +18,8 @@ export function Contact() {
     {
       icon: Send,
       label: 'Telegram',
-      href: 'https://t.me/firdavs240'
-      username: '@firdavs240'
+      href: 'https://t.me/firdavs2407'
+      username: '@firdavs2407'
     },
     {
       icon: Mail,
