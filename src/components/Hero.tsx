@@ -15,7 +15,7 @@ export function Hero() {
     },
     {
       icon: Send,
-      href: "https://t.me/firdavs24075",
+      href: "https://t.me/firdavs2407",
       label: "Email",
     },
   ];
