@@ -18,8 +18,8 @@ export function Contact() {
     {
       icon: Send,
       label: 'Telegram',
-      href: 'https://t.me/firdavs24075',
-      username: '@firdavs24075'
+      href: 'https://t.me/firdavs2407'
+      username: '@firdavs2407'
     },
     {
       icon: Mail,
@@ -30,8 +30,8 @@ export function Contact() {
     {
       icon: Phone,
       label: 'Phone',
-      href: 'tel:+998912227393',
-      username: '+998 91 222 73 93'
+      href: 'tel:+998888000724',
+      username: '+998 88 800 07 24'
     }
   ];
 
