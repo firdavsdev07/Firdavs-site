@@ -12,8 +12,8 @@ export function Contact() {
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com/Firdavs-Normurodov',
-      username: '@Firdavs-Normurodov'
+      href: 'https://github.com/firdavsdev07',
+      username: '@firdavsdev07'
     },
     {
       icon: Send,
