@@ -5,7 +5,7 @@ export function Hero() {
   const socialLinks = [
     {
       icon: Github,
-      href: "https://github.com/Firdavs-Normurodov",
+      href: "https://github.com/firdavsdev07",
       label: "GitHub",
     },
     {
