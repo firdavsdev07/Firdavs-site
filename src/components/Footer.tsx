@@ -1,13 +1,13 @@
-import { Github, Instagram, Send } from 'lucide-react';
+import { Github, Linkedin, Send } from 'lucide-react';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
   
   const socialLinks = [
     {
-      icon: Instagram,
-      href: 'https://www.instagram.com/firdavs_flow/',
-      label: 'Instagram'
+      icon: Linkedin,
+      href: 'https://www.linkedin.com/in/firdavs-normurodov-667a85271',
+      label: 'Linkedin'
     },
     {
       icon: Github,
@@ -16,7 +16,7 @@ export function Footer() {
     },
     {
       icon: Send,
-      href: 'https://t.me/firdavs24075',
+      href: 'https://t.me/firdavs2407',
       label: 'Telegram'
     }
   ];

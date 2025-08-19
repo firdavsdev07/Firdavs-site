@@ -1,13 +1,13 @@
-import { Github, Instagram, Mail, Phone, Send } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone, Send } from 'lucide-react';
 import Link from 'next/link';
 
 export function Contact() {
   const contactInfo = [
     {
-      icon: Instagram,
-      label: 'Instagram',
-      href: 'https://www.instagram.com/firdavs_flow/',
-      username: '@firdavs_flow'
+      icon: Linkedin,
+      label: 'LinkedIn',
+      href: 'https://www.linkedin.com/in/firdavs-normurodov-667a85271/',
+      username: 'Firdavs Nomurodov'
     },
     {
       icon: Github,
@@ -18,7 +18,7 @@ export function Contact() {
     {
       icon: Send,
       label: 'Telegram',
-      href: 'https://t.me/firdavs2407'
+      href: 'https://t.me/firdavs2407',
       username: '@firdavs2407'
     },
     {

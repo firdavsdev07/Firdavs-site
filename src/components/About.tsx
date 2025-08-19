@@ -35,7 +35,7 @@ export function About() {
             <div className="relative">
               <div className="aspect-square w-full max-w-[500px] mx-auto overflow-hidden rounded-2xl">
                 <Image
-                  src="/assets/about.png"
+                  src="/assets/about.jpg"
                   alt="Profile"
                   fill
                   className="object-cover rounded-2xl"

@@ -1,4 +1,4 @@
-import { ArrowDown, Download, Github, Instagram, Send } from "lucide-react";
+import { ArrowDown, Download, Github, Linkedin, Send } from "lucide-react";
 import Link from "next/link";
 
 export function Hero() {
@@ -9,8 +9,8 @@ export function Hero() {
       label: "GitHub",
     },
     {
-      icon: Instagram,
-      href: "https://www.instagram.com/firdavs_flow",
+      icon: Linkedin,
+      href: "https://www.linkedin.com/in/firdavs-normurodov-667a85271/",
       label: "LinkedIn",
     },
     {
